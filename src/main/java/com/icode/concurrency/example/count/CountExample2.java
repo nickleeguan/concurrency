@@ -49,7 +49,7 @@ public class CountExample2 {
         logger.info("count:{}", count.get());
     }
 
-    private static void add(){
+    private synchronized static void add(){
         count.incrementAndGet();
     }
 }
