@@ -31,7 +31,6 @@ public class LockExample6 {
             logger.info("get lock");//2
             try {
                 Thread.sleep(3000);
-
             }catch (InterruptedException e){
                 e.printStackTrace();
             }
